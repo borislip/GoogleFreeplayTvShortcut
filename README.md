@@ -28,6 +28,9 @@ adb install -r app-debug.apk
 Requires a device that already has `com.google.android.apps.tv.launcherx`
 installed (Chromecast with Google TV, Google Streamer, and similar boxes).
 
+See [`freeplay.md`](freeplay.md) for how the `tv.google.com/freeplay/...`
+deeplink scheme was reverse engineered, including other valid/invalid forms.
+
 ## Build
 
 No local Android SDK needed — GitHub Actions builds the APK on every push
